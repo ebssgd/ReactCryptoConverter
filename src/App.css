@@ -52,3 +52,13 @@
   max-width: 50px;
   width: 100%;
 }
+
+.form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form .fa-exchange-alt {
+  line-height: unset;
+  padding: 0 10px;
+}

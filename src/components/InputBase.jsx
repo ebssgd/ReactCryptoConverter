@@ -1,12 +1,10 @@
 import React from "react";
 
-const InputBase = () => {
-  return (
-    <>
-      <input type="number" className="form-control" />
-      <span className="input-group-text">BTC</span>
-    </>
-  );
-};
+const InputBase = ({ textLabel, ...props }) => (
+  <>
+    <input type="number" className="form-control" {...props} />
+    <span className="input-group-text">{textLabel}</span>
+  </>
+);
 
 export default InputBase;
